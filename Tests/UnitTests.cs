@@ -93,7 +93,7 @@ public class Division
     [TestMethod]
     public void Div_Valid_Tran()
     {
-        Assert.AreEqual( 1/2, Program.Divide("1", "2"));
+        Assert.AreEqual( (double)1/2, Program.Divide("1", "2"));
         Assert.AreEqual( (double)3/2, Program.Divide("3", "2"));
         Assert.AreEqual( (double)5/7, Program.Divide("5", "7"));
     }
